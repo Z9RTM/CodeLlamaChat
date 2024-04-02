@@ -14,7 +14,7 @@ const TEMPLATE = `あなたは優秀なJavaエンジニアです。全ての応�
 {chat_history}
 
 User: {input}
-AI:`;
+LLaMA:`;
 
 export async function POST(req: Request) {
     const body = await req.json();
