@@ -6,8 +6,8 @@ import 'zenn-content-css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Java Chat Bot",
-  description: "Java simple chat bot"
+  title: "Code LLaMA Chat",
+  description: "Simple Code LLaMA Chat"
 };
 
 export default function RootLayout({
